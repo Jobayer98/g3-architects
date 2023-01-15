@@ -29,6 +29,7 @@
 
   display: inline-block;
   padding: 16px 22px;
+  margin-top: 24px;
   border-radius: 8px;
 }
 
@@ -94,11 +95,12 @@ section {
 .hero-description .title {
   font-size: 42px;
   font-weight: 700;
+  margin-bottom: 16px;
 }
 
 .hero-description p {
-  margin: 16px 0 24px 0;
-  text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 .hero .hero-img img {
   height: 100%;
@@ -142,7 +144,7 @@ section {
 
 .feature-list .aside-right p {
   margin-top: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 /* Style for Experience Section */
@@ -233,7 +235,7 @@ section {
 }
 
 .fact-details p {
-    width: 65%;
+    width: 50%;
     margin: 20px 0 42px 0;
 }
 
@@ -262,4 +264,30 @@ section {
 
 .items .item #email {
     margin:10px 16px;
+}
+
+/* Style for Sponsor section */
+.sponsor-details {
+    text-align: center;
+}
+.sponsor-details h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+.sponsor-details p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.sponsors .sponsor img {
+    height: 30px;
+    filter: grayscale(100%);
 }
