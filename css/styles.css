@@ -99,3 +99,47 @@ section {
     object-fit: contain;
 
 }
+
+/* Style for Feature list Section */
+.feature-list {
+    display: flex;
+    column-gap: 64px;
+    align-items: center;
+}
+
+.feature-list .team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-list .team img {
+    height: 220px;
+    width: 220px;
+}
+
+.feature-list .aside-right h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #131313;
+    line-height: 36px;
+}
+
+.feature-list .aside-right #primary {
+    color:#FF900E;
+}
+
+.feature-list .aside-right #secondary {
+    font-weight: 500;
+    color:#727272;
+}
+
+.feature-list .aside-right p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
