@@ -250,6 +250,7 @@ section {
     border-radius: 5px;
 
     padding: 16px;
+    transition: width 4s ease-in-out;
 }
 
 .items .item img {
@@ -258,11 +259,11 @@ section {
 
 .items .item h3 {
     font-size: 26px;
-    margin: 8px 0;
+    margin: 8px 20px
 }
 
-.items .item #email {
-    margin:10px 16px;
+.items .item:hover {
+    transform: scale(1.2);
 }
 
 /* Style for Sponsor section */
@@ -289,6 +290,41 @@ section {
 .sponsors .sponsor img {
     height: 30px;
     filter: grayscale(100%);
+}
+
+/* Style for bonus section */
+.content h2 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    padding-top: 32px;
+    margin: 32px 0;
+
+    border-top: 2px solid #ff8f0f1a;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* team section styling */
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin: 20px 10px;
+}
+.card {
+  padding: 10px;
+}
+
+.card h4,
+.card p {
+  width: 200px;
+  margin: 10px auto;
 }
 
 /* Style for footer Section */
