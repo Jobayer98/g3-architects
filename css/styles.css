@@ -225,3 +225,41 @@ section {
     text-transform: capitalize;
     margin-top: 12px;
 }
+
+/* Style for Facts section */
+.fact-details h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.fact-details p {
+    width: 65%;
+    margin: 20px 0 42px 0;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items .item {
+    text-align: center;
+    border: 1px solid #ff900e;
+    border-radius: 5px;
+
+    padding: 16px;
+}
+
+.items .item img {
+    height: 40px;
+}
+
+.items .item h3 {
+    font-size: 26px;
+    margin: 8px 0;
+}
+
+.items .item #email {
+    margin:10px 16px;
+}
