@@ -19,10 +19,26 @@
   Color for p tag
     color: #727272
 */
+/* Common Style for Explore more button */
+.explore {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #FF900E;
+    color: #fff;
+
+    display: inline-block;
+    padding: 16px 22px;
+    border-radius: 8px;
+}
 /* Style for Header Section */
 header {
     background-color: hsla(32, 100%, 53%, 10%);
     padding: 36px 150px 18px 150px;
+}
+
+section {
+    margin: 64px 150px;
 }
 .nav-bar {
     display: flex;
@@ -43,13 +59,12 @@ header {
 }
 
 .nav-bar ul li {
-    /* margin-left: 32px; */
     list-style: none;
 }
 
 .nav-bar ul li a {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
 
     color: #424242;
@@ -61,7 +76,7 @@ header {
 
 .hero-description {
     text-align: center;
-    margin-bottom: 64px;
+    margin-bottom: 52px;
 }
 .hero-description .title {
     font-size: 42px;
@@ -75,7 +90,7 @@ header {
     font-weight: 400;
     color: #727272;
     line-height: 24px;
-    margin: 16px 0 32px 0;
+    margin: 16px 0 24px 0;
     text-align: center;
 }
 .hero .hero-img img {
@@ -83,16 +98,4 @@ header {
     width: 100%;
     object-fit: contain;
 
-}
-
-.hero-description a {
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-    background-color: #FF900E;
-    color: #fff;
-
-    display: inline-block;
-    padding: 16px 22px;
-    border-radius: 8px;
 }
