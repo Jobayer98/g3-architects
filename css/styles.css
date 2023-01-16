@@ -98,7 +98,7 @@ section {
 }
 
 .hero-description p {
-    width: 80%;
+    width: 680px;
     margin: 0 auto;
 }
 .hero .hero-img img {
@@ -142,6 +142,7 @@ section {
 }
 
 .feature-list .aside-right p {
+  width: 430px;
   margin-top: 20px;
   margin-bottom: 12px;
 }
@@ -234,14 +235,16 @@ section {
 }
 
 .fact-details p {
-    width: 380px;
-    margin: 20px 0 42px 0;
+    width: 460px;
+    display: block;
+    margin: 16px auto;
 }
 
 .items {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 24px;
 }
 
 .items .item {
@@ -250,7 +253,7 @@ section {
     border-radius: 5px;
 
     padding: 16px;
-    transition: width 4s ease-in-out;
+    transition: width 4s ease-in;
 }
 
 .items .item img {
@@ -263,7 +266,7 @@ section {
 }
 
 .items .item:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* Style for Sponsor section */
@@ -308,7 +311,7 @@ section {
   border-radius: 50%;
   object-fit: cover;
 }
-/* team section styling */
+
 .cards {
   display: flex;
   align-items: center;
@@ -435,7 +438,7 @@ footer {
 }
 
 .sponsors {
-  flex-wrap: wrap;
+  flex-direction: column;
   row-gap: 16px;
 }
 
